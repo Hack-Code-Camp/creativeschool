@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
+. {
+    margin: o;
+    padding: o;
+    box-sizing: border-box;
+}
+
+/*utility class*/
+a {
+    text-decoration: none;
+}
+
+/* Nav bar*/
+#navheader {
+    background: url(../images-folders/image3/Icons.svg) no-repeat center center /contain;
+    background-color: #F3F8FF;
+    font-family: 'Teko', sans-serif;
+}
+.course-center {
+    text-align: center;
+    color: #2E2B4E;
+}
+.btn {
+    background: #454696;
+}
+.white {
+    background: #FFFFFF;
+    color: #444444;
+    box-shadow:2px 2px #8D8D8D29;
+    border-style: none;
+}
+
+.rounded-circle {
+    border-style: solid;
+    padding-top: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
+    color: #DDDDDD;
+}
+@media( max-width:765px){
+    .form-inline {
+    padding-left: 6rem;
+    }
+}
+/* nav bar end*/
+/*article*/
+.non {
+    border-style: none;
+}
+#article {
+    font-family: 'Teko', sans-serif;
+    height: 100vh;
+}
+ #article, .container {
+    height: inherit;
+     color:#2E2B4E;
+     padding-top: 1.5rem;
+}
+.header1 {
+    color:#2E2B4E;
+    text-transform: uppercase;
+}
+.note{
+    width: 105px;
+    border-style: solid;
+    border-width: 4px 0px 0px 0px;
+    color: #FFB431;
+}
+.center {
+    text-align: center;
+    font-size: 25px;
+}
+
+
