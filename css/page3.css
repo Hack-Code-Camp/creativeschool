@@ -70,5 +70,32 @@ a {
     text-align: center;
     font-size: 25px;
 }
+.ash {
+    color: #999999;
+}
+.big-resize {
+    font-size: 29px;
+}
+.color-p {
+    color: #444444;
+}
+
+@media(max-width:765px){
+    .note {
+        margin-left: 9rem;
+    }
+    .card {
+        border-style: none;
+        padding-right: 2rem;
+    }
+    .non {
+    padding-right: 13rem;  
+   }
+  
+
+
+}
+
+
 
 
