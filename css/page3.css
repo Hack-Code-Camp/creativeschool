@@ -9,6 +9,9 @@
 a {
     text-decoration: none;
 }
+body {
+    font-family: 'Teko', sans-serif;
+}
 
 /* Nav bar*/
 #navheader {
@@ -91,11 +94,46 @@ a {
     .non {
     padding-right: 13rem;  
    }
-  
-
-
 }
 
+/*section part*/
 
+#section {
+    background: #403b77;
+}
+.section {
+    color: #FFFFFF;
+    letter-spacing:2px;
+}
+.space{
+    gap: 2rem;
+}
+
+/*show-case*/
+.marge {
+    margin-left: 32rem;
+} 
+
+
+
+/*footer*/
+.display {
+    float: left;
+}
+#footer {
+    background: #324252;
+}
+.footer-color {
+    color: #FFFFFF;
+}
+.footer-note {
+    width: 300px;
+    border-style: solid;
+    border-width: 1px 0px 0px 0px;
+    color: #FFFFFF;
+}
+.decoration {
+    text-decoration: underline;
+}
 
 
