@@ -94,6 +94,18 @@ body {
     .non {
     padding-right: 13rem;  
    }
+   .sonn {
+       display: flex;
+       flex-direction: column;
+   }
+  .marge {
+      float: right; padding-left:10rem;
+      margin-right: 7rem;
+      
+  }
+  .padding-media {
+      margin-bottom: 40px;
+  }
 }
 
 /*section part*/
