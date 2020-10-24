@@ -1,0 +1,320 @@
+/*Google Font*/
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat+Subrayada:wght@400;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Teko:wght@300;400;500;600;700&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: teko;
+}
+
+header,section{
+    overflow-x: hidden;
+}
+header .container .col-md-4 h2>span{
+    font-weight: bold;
+}
+ 
+header a{
+    font-size: 24px;
+    color: #444444;
+}
+
+header{
+    background-color: #f3f8ff;
+}
+/*header .nav-logo{
+    justify-self: start;
+}*/
+
+header .nav-item:last-child{
+    padding-right: 10.5em;
+}
+
+header .nav-item{
+    padding: 1.em;
+}
+header .nav-item .d{
+    color: #444444;
+}
+header .active{
+    color: #454696;
+}
+header .rounded-circle{
+    border: 1px solid #dddddd;
+    border-radius: 50%;
+    background-color: #F3F8FF;
+    padding: 7px;
+    margin-right: 7px;
+}
+header .nav-icon{
+    border-radius: 30px;
+    font-weight: bold;
+    background-color: #454696;
+}
+
+header .row{
+    padding-top: 22vmin;
+    padding-bottom: 35vmin;
+}
+header .container .col-md-3 button{
+    border-radius: 30px;
+    font-weight: bold;
+    background-color: #454696;
+    margin-top: 2rem;
+}
+header .container .col-md-2 h1{
+    font-weight: bold;
+    font-size: 35px;
+    color: #324252;
+    margin-bottom: .20rem;
+}
+header .container .col-md-2 p{
+    font-weight: normal;
+    font-size: 12px;
+    color: #324252;
+    font-display: inline-block;
+    padding-top: .20rem;
+}
+header .line-1{
+    background-color: #FFB431;
+    height: .2rem;
+    width: 4rem;
+    margin: .5rem 0rem 1rem;
+}
+header .line-2{
+    background-color: #FFB431;
+    height: .2rem;
+    width: 4rem;
+    margin: .5rem 0rem 1rem;
+}
+
+
+
+/*.platform{
+    position: relative;
+    background: #ffffff;
+    z-index: 1;
+    border-radius: 10em;
+    text-align: center;
+    padding-top: 3vmin;
+    margin: 1rem;
+    box-shadow: 0px 5px 99px #AEAEAE29;
+}
+.p-2{
+    margin-top: -15vmin;
+}
+*/
+.section-1 .list-inline{
+    padding: 1em 5em;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius:1rem ; 
+    position: absolute;
+    margin: -2em 20em  -2em 30em;
+}
+.section-1 .list-inline-item{
+    padding: 10px;
+}
+
+.section-1 .list-inline-item:nth-child(1+2){
+    border-right: 1px solid #DDDDDD;
+}
+.section-1 .list-inline-item:last-child{
+    background-color:#454696;
+}
+
+
+/*section-2*/
+.section-2{
+    padding: 20vmin;
+}
+.section-2 .line-3{
+    background-color: #FFB431;
+    height: .2rem;
+    width: 7rem;
+    margin-left: 30rem;
+    margin-bottom: 1rem;
+}
+.section-2 .card .col-md-5 p{
+    font-size: 10px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.popular .cards .card{
+    width: 22rem;
+    margin: 3vmin;
+}
+.cards .card-title{
+   /* font-size: 32px;*/
+    color: #324252;
+}
+.card-body .enroll{
+    background-color: #454696;
+    padding: 7px;
+}
+.card-body .view{
+    background-color: #FFFFFF;
+    padding: 7px;
+}
+
+.courses .cards .card{
+    width: 22rem;
+    margin: 3vmin;
+}
+
+.section-3{
+    background-color: #454696;
+    height: 250px;
+    justify-items: center;
+
+}
+.section-3 .grab{
+    padding-top: 2rem;
+}
+.section-3 .both{
+    padding-bottom: 2rem;
+}
+.section-3 .button{
+    background-color: #ffffff;
+    margin: 0px 7px;
+    padding: 7px;
+}
+
+.section-4 h2{
+    padding: 5rem 0rem .5rem;
+}
+.section-4 .line-4{
+    background-color: #FFB431;
+    height: .2rem;
+    width: 7rem;
+    margin-left: 38rem;
+    margin-bottom: 3rem;
+}
+.section-4 .card{
+    margin-bottom: 3rem;
+}
+.section-4 .line{
+    background-color: #FFFFFF;
+    height: .2rem;
+    width: 5rem;
+    margin-left: 5rem;
+    margin-bottom: 7px;
+}
+.section-4 .card .lab{
+    background-color: #625EA6;
+}
+.section-4 .card .card-title{
+    padding-top: 7px;
+}
+.section-4 .card .trainers{
+    background-color: #7ADBC3;
+}
+.section-4 .card .live{
+    background-color: #31BCFF;
+}
+.section-4 .card .Video{
+    background-color: #F65B8B;
+}
+.section-4 .card .Certification{
+    background-color: #F27676;
+}
+.section-4 .card .Support{
+    background-color: #5ED6DE;
+}
+
+/*section-5*/
+.section-5 .line-3{
+        background-color: #FFB431;
+        height: .2rem;
+        width: 7rem;
+        margin-left: 39rem;
+        margin-bottom: 1rem;
+}
+.section-5 .card .col-md-5 p{
+    font-size: 10px;
+    text-align: center;
+    padding-top: 10px;
+}
+.section-5 .btn{
+    background-color: #454696;
+}
+
+.section-6{
+    background-color: #F5F5F5;
+    margin-top: 3rem;
+    padding-bottom: 10rem;
+}
+.section-6 .line-3{
+    background-color: #FFB431;
+    height: .2rem;
+    width: 7rem;
+    margin-left: 39rem;
+    margin-bottom: 1rem;
+}
+.section-6 .feedback{
+    padding: 3rem 0rem 0.5rem;
+}
+.section-6 .icon{
+    align-top: 3rem;
+}
+.section-6 .icon img{
+    position: relative;
+    align: top 7rem;
+}
+.section-6 .container .col-md-6 p{
+    font-size: 16px;
+    padding: 18px 10px;
+}
+/*Footer*/
+footer{
+    background-color: #324252;
+    padding: 2rem 7rem;
+} 
+/*footer h2{
+    border-bottom: 3px solid #ffffff;
+}*/
+footer .line-1{
+    background-color: #ffffff;
+    height: .2rem;
+    width: 20rem;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+footer .line-2{
+    background-color: #ffffff;
+    height: .2rem;
+    width: 20rem;
+    margin-bottom: 1rem;
+}
+footer .line-3{
+    background-color: #ffffff;
+    height: .2rem;
+    width: 20rem;
+    margin-bottom: 1rem;
+}
+footer .line-4{
+    background-color: #ffffff;
+    height: .2rem;
+    width: 18rem;
+    margin-bottom: 1rem;
+}
+footer h2 .follow{
+    margin-top: 2rem;
+}
+footer input{
+    border: none !important;
+}
+footer input::placeholder{
+    color: white !important;
+}
+footer .input-group .input-group-text{
+    background: #ffffff;
+    border: none;
+}
+
+.copyright{
+    background-color: #283440;
+    padding: 1rem;
+}
+.copyright img .c-logo{
+    padding-right: 12px;
+}
