@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*utility class*/
+a {
+    text-decoration: none;
+}
+body {
+    font-family: 'Teko', sans-serif;
+}
+
+
+/* Nav bar*/
+#navheader {
+    background: url(../images-folders/image3/Icons.svg) no-repeat center center /contain;
+    background-color: #F3F8FF;
+    font-family: 'Teko', sans-serif;
+}
+.course-center {
+    text-align: center;
+    color: #2E2B4E;
+}
+.login-color {
+    color: #2E2B4E;
+    font-size: 30px;
+}
+.btn {
+    background: #454696;
+}
+.white {
+    background: #FFFFFF;
+    color: #444444;
+    box-shadow:2px 2px #8D8D8D29;
+    border-style: none;
+}
+
+.rounded-circle {
+    border-style: solid;
+    padding-top: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
+    color: #DDDDDD;
+}
+@media( max-width:765px){
+    .form-inline {
+    padding-left: 6rem;
+    }
+}
+/* nav bar end*/
+
+/*article*/
+#article{
+    
+}
+.article {
+    background: #FFFFFF;
+    box-shadow:2px 2px #8D8D8D29;
+}
