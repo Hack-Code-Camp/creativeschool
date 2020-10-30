@@ -51,6 +51,11 @@ body {
 .spacing {
     gap: 1rem;
 }
+/*@media(max-width:765px) {
+    .ff {
+        display: flex;
+    }
+}*/
 
 .vertical-line {
     border-style: solid;
