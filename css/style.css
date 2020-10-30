@@ -264,57 +264,47 @@ header .line-2{
     font-size: 16px;
     padding: 18px 10px;
 }
-/*Footer*/
-footer{
-    background-color: #324252;
-    padding: 2rem 7rem;
-} 
-/*footer h2{
-    border-bottom: 3px solid #ffffff;
-}*/
-footer .line-1{
-    background-color: #ffffff;
-    height: .2rem;
-    width: 20rem;
-    padding-left: 1rem;
-    margin-bottom: 1rem;
+/*footer*/
+.display {
+    float: left;
 }
-footer .line-2{
-    background-color: #ffffff;
-    height: .2rem;
-    width: 20rem;
-    margin-bottom: 1rem;
+#footer {
+    background: #324252;
 }
-footer .line-3{
-    background-color: #ffffff;
-    height: .2rem;
-    width: 20rem;
-    margin-bottom: 1rem;
+.footer-color {
+    color: #FFFFFF;
 }
-footer .line-4{
-    background-color: #ffffff;
-    height: .2rem;
-    width: 18rem;
-    margin-bottom: 1rem;
+.footer-note {
+    width: 300px;
+    border-style: solid;
+    border-width: 1px 0px 0px 0px;
+    color: #FFFFFF;
 }
-footer h2 .follow{
-    margin-top: 2rem;
+.footer-note1 {
+    width: 200px;
+    border-style: solid;
+    border-width: 1px 0px 0px 0px;
+    color: #FFFFFF;
 }
-footer input{
-    border: none !important;
+.decoration {
+    text-decoration: underline;
 }
-footer input::placeholder{
-    color: white !important;
+.text-color {
+    background: #283440;
+    color: #ffffff;
 }
-footer .input-group .input-group-text{
-    background: #ffffff;
-    border: none;
+.form-color-btn {
+    background: #ffff;
+}
+.linked-backg {
+    background: rgb(58, 98, 219);
+}
+.space1 {
+    gap: 5px;
+}
+#footer2 {
+    background: #283440;
 }
 
-.copyright{
-    background-color: #283440;
-    padding: 1rem;
-}
-.copyright img .c-logo{
-    padding-right: 12px;
-}
+
+
