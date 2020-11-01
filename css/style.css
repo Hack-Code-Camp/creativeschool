@@ -102,25 +102,32 @@ header .line-2{
     margin-top: -15vmin;
 }
 */
-.section-1 .list-inline{
-    padding: 1em 5em;
-    background-color: #ffffff;
-    border: 2px solid #ffffff;
-    border-radius:1rem ; 
-    position: absolute;
-    margin: -2em 20em  -2em 30em;
+/*Section-1*/
+.position {
+    position: relative;
+    top: 2.5rem;
+    width: 65rem;
+    left: 2rem;
+    height: 5rem;
+    background: #FFFFFF;
+    border-radius: 25px;
+    border-style: none;
+    box-shadow: 2px 2px 2px 2px #AEAEAE29;
 }
-.section-1 .list-inline-item{
-    padding: 10px;
+.font-textcolor {
+    color: #B8B8B8;
+    font-family: 'arimo','regular';
+}
+.spacing {
+    gap: 1rem;
 }
 
-.section-1 .list-inline-item:nth-child(1+2){
-    border-right: 1px solid #DDDDDD;
+.vertical-line {
+    border-style: solid;
+    border-width: 0px 2px 0px 0px;
+    height: 30px;
+    margin-left: 8rem;
 }
-.section-1 .list-inline-item:last-child{
-    background-color:#454696;
-}
-
 
 /*section-2*/
 .section-2{
