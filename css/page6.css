@@ -20,7 +20,7 @@ body {
     background-color: #F3F8FF;
     font-family: 'Teko', sans-serif;
 }
-.course-center {
+.login {
     text-align: center;
     color: #2E2B4E;
 }
@@ -51,12 +51,59 @@ body {
     }
 }
 /* nav bar end*/
-
-/*article*/
-#article{
-    
-}
-.article {
+/*.article {
     background: #FFFFFF;
     box-shadow:2px 2px #8D8D8D29;
+}*/
+.shadow{
+    padding: 2rem;
 }
+.icons{
+    margin-left: 12rem;
+}
+
+/*footer*/
+.display {
+    float: left;
+}
+#footer {
+    background: #324252;
+}
+.footer-color {
+    color: #FFFFFF;
+}
+.footer-note {
+    width: 300px;
+    border-style: solid;
+    border-width: 1px 0px 0px 0px;
+    color: #FFFFFF;
+}
+.footer-note1 {
+    width: 200px;
+    border-style: solid;
+    border-width: 1px 0px 0px 0px;
+    color: #FFFFFF;
+}
+.decoration {
+    text-decoration: underline;
+}
+.text-color {
+    background: #283440;
+    color: #ffffff;
+}
+.form-color-btn {
+    background: #ffff;
+}
+.linked-backg {
+    background: rgb(58, 98, 219);
+}
+.space1 {
+    gap: 5px;
+}
+#footer2 {
+    background: #283440;
+}
+
+
+
+
