@@ -12,21 +12,15 @@ a {
 body {
     font-family: 'Teko', sans-serif;
 }
-
-
 /* Nav bar*/
 #navheader {
     background: url(../images-folders/image3/Icons.svg) no-repeat center center /contain;
     background-color: #F3F8FF;
     font-family: 'Teko', sans-serif;
 }
-.login {
+.enroll-form {
     text-align: center;
     color: #2E2B4E;
-}
-.login-color {
-    color: #2E2B4E;
-    font-size: 30px;
 }
 .btn {
     background: #454696;
@@ -50,17 +44,16 @@ body {
     padding-left: 6rem;
     }
 }
-/* nav bar end*/
-/*.article {
-    background: #FFFFFF;
-    box-shadow:2px 2px #8D8D8D29;
-}*/
-.shadow{
-    padding: 2rem;
+
+.form-section{
+    margin-top: 7em;
 }
-.icons{
-    margin-left: 12rem;
+.rect{
+    width: 150px;
+    height: 30px;
+    border: 1px solid #DDDDDD;
 }
+
 
 /*footer*/
 .display {
@@ -103,7 +96,6 @@ body {
 #footer2 {
     background: #283440;
 }
-
 
 
 
