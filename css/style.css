@@ -106,8 +106,8 @@ header .line-2{
 .position {
     position: relative;
     top: 2.5rem;
-    width: 65rem;
-    left: 2rem;
+    width: 69rem;
+    left: 1rem;
     height: 5rem;
     background: #FFFFFF;
     border-radius: 25px;
@@ -120,6 +120,9 @@ header .line-2{
 }
 .spacing {
     gap: 1rem;
+}
+.font-size {
+    font-size: 12.5px;
 }
 
 .vertical-line {
