@@ -19,6 +19,14 @@ body {
     background: url(../images-folders/image3/Icons.svg) no-repeat center center /contain;
     background-color: #F3F8FF;
     font-family: 'Teko', sans-serif;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+#navheader1{
+    background: url(../images-folders/image3/Icons.svg) no-repeat center center /contain;
+    background-color: #F3F8FF;
+    font-family: 'Teko', sans-serif;
 }
 .course-center {
     text-align: center;
