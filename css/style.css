@@ -2,52 +2,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat+Subrayada:wght@400;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Teko:wght@300;400;500;600;700&display=swap');
 *{
     box-sizing: border-box;
-    font-family: teko;
+    margin: 0;
+    padding: 0;
 }
-
-header,section{
-    overflow-x: hidden;
+body{
+    font-family: 'Teko', sans-serif;
 }
-header .container .col-md-4 h2>span{
-    font-weight: bold;
-}
- 
-header a{
-    font-size: 24px;
-    color: #444444;
-}
-
-header{
-    background-color: #f3f8ff;
-}
-/*header .nav-logo{
-    justify-self: start;
-}*/
-
-header .nav-item:last-child{
-    padding-right: 10.5em;
-}
-
-header .nav-item{
-    padding: 1.em;
-}
-header .nav-item .d{
-    color: #444444;
-}
-header .active{
-    color: #454696;
-}
-header .rounded-circle{
-    border: 1px solid #dddddd;
-    border-radius: 50%;
+#header1{
     background-color: #F3F8FF;
-    padding: 7px;
-    margin-right: 7px;
+    font-family: 'Teko', sans-serif;
+    position: sticky;
+    top: 0;
+    z-index: 1
 }
-header .nav-icon{
-    border-radius: 30px;
-    font-weight: bold;
-    background-color: #454696;
+#header{
+    background-color: #F3F8FF;
+    font-family: 'Teko', sans-serif;
+}
+.btn {
+    background: #454696;
 }
 
 header .row{
@@ -85,24 +58,31 @@ header .line-2{
     width: 4rem;
     margin: .5rem 0rem 1rem;
 }
-
-
-
-/*.platform{
-    position: relative;
+.rounded-circle {
+    border-style: solid;
+    padding-top: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
+    color: #DDDDDD;
+}
+.btn1{
     background: #ffffff;
-    z-index: 1;
-    border-radius: 10em;
-    text-align: center;
-    padding-top: 3vmin;
-    margin: 1rem;
-    box-shadow: 0px 5px 99px #AEAEAE29;
+    border-style: none;
+    color: #B8B8B8;
 }
-.p-2{
-    margin-top: -15vmin;
+.vertical-line {
+    border-style: solid;
+    border-width: 0px 2px 0px 0px;
+    height: 30px;
+    margin-left: 8rem;
 }
-*/
-/*Section-1*/
+.font-textcolor {
+    color: #B8B8B8;
+    font-family: 'arimo','regular';
+}
+.font-size {
+    font-size: 12.5px;
+}
 .position {
     position: relative;
     top: 2.5rem;
@@ -114,167 +94,161 @@ header .line-2{
     border-style: none;
     box-shadow: 2px 2px 2px 2px #AEAEAE29;
 }
-.font-textcolor {
-    color: #B8B8B8;
-    font-family: 'arimo','regular';
+.image{
+    background: url(../images-folders/homepageimages/Image.svg)no-repeat center center /contain;
 }
-.spacing {
-    gap: 1rem;
-}
-.font-size {
-    font-size: 12.5px;
+@media( max-width:765px){
+    .image{
+        background: url(../images-folders/homepageimages/Image.svg)no-repeat center center /contain;
+        height: 40vh;
+    }
+    .position {
+        margin-bottom: 4rem;
+        position: relative;
+        width: 24rem;
+        height: 16rem;
+        padding-top:1rem;
+        
+    }
+    .vertical-line {
+        border-style: solid;
+        border-width: 0px 0px 2px 0px;
+        width:10px;
+        float: right; padding-left:7rem;
+        margin-right: 4rem;
+    }
+    
+    .adjust {
+        margin-left: 1rem;
+    }
+    .dd{
+        display: flex;
+        flex-direction: column;
+    }
+    .fuda-adj {
+        margin-left: 5rem;
+    }
+    .padd {
+        padding-bottom: 1rem;
+    }
+    .note-page2 {
+        float: right; padding-left:5rem;
+        margin-right:9rem;
+    }
+    .merggin {
+        float: right; padding-left:10rem;
+        margin-right: 7rem;
+    }
+    .sonn-foot {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 0 2rem 0;
+    }
+   
 }
 
-.vertical-line {
+/*article1-head*/
+
+.article1-head{
+    margin: 5rem 0px 3rem 0px;
+    
+}
+.note{
+    width: 105px;
     border-style: solid;
-    border-width: 0px 2px 0px 0px;
-    height: 30px;
-    margin-left: 8rem;
+    border-width: 4px 0px 0px 0px;
+    color: #FFB431;
+    margin-left: 31rem;
+}
+.bold{
+    font-size: 20px;
+    font-weight: 600;
+}
+.white {
+    background: #FFFFFF;
+    color: #444444;
+    box-shadow:2px 2px #8D8D8D29;
+    border-style: none;
+}
+.df{
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: #DDDDDD;
+}
+.bolding{
+    font-size: 15px;
+    color: #999999;
+    
 }
 
-/*section-2*/
-.section-2{
-    padding: 20vmin;
+/*article1-section1*/
+.article1-section1{
+    background: #454696;
 }
-.section-2 .line-3{
-    background-color: #FFB431;
-    height: .2rem;
-    width: 7rem;
-    margin-left: 30rem;
-    margin-bottom: 1rem;
+.font-color{
+    color: #ffffff;
 }
-.section-2 .card .col-md-5 p{
-    font-size: 10px;
-    text-align: center;
-    padding-top: 10px;
+.btn-font-color{
+    color: #111111;
+    background: #ffff;
+}
+/*article2-section*/
+
+.color1-page2 {
+    background:#625EA6;
+    box-shadow: 2px 2px 2px 2px #625EA62B;
+    border-style: none;
+}
+.color2-page2{
+    background: #7ADBC3;
+    box-shadow: 2px 2px 2px 2px #7ADBC32B;
+    border-style: none;
+}
+.color3-page2{
+    background: #31BCFF;
+    box-shadow: 2px 2px 2px 2px #31BCFF2B;
+    border-style: none;
+}
+.color4-page2{
+    background: #F65B8B;
+    box-shadow: 2px 2px 2px 2px #F65B8B2B;
+    border-style: none;
+}
+.color5-page2{
+    background: #F27676;
+    box-shadow: 2px 2px 2px 2px #F276762B;
+    border-style: none;
+}
+.color6-page2{
+    background: #5ED6DE;
+    box-shadow: 2px 2px 2px 2px #5ED6DE2B;
+    border-style: none;
+}
+.color-text {
+    color: #FFFFFF;
 }
 
-.popular .cards .card{
-    width: 22rem;
-    margin: 3vmin;
-}
-.cards .card-title{
-   /* font-size: 32px;*/
-    color: #324252;
-}
-.card-body .enroll{
-    background-color: #454696;
-    padding: 7px;
-}
-.card-body .view{
-    background-color: #FFFFFF;
-    padding: 7px;
-}
+/*show-case section*/
+/*the html are a transter
+ from page3 and much of the css */
 
-.courses .cards .card{
-    width: 22rem;
-    margin: 3vmin;
-}
-
-.section-3{
-    background-color: #454696;
-    height: 250px;
-    justify-items: center;
-
-}
-.section-3 .grab{
-    padding-top: 2rem;
-}
-.section-3 .both{
-    padding-bottom: 2rem;
-}
-.section-3 .button{
-    background-color: #ffffff;
-    margin: 0px 7px;
-    padding: 7px;
-}
-
-.section-4 h2{
-    padding: 5rem 0rem .5rem;
-}
-.section-4 .line-4{
-    background-color: #FFB431;
-    height: .2rem;
-    width: 7rem;
-    margin-left: 38rem;
-    margin-bottom: 3rem;
-}
-.section-4 .card{
-    margin-bottom: 3rem;
-}
-.section-4 .line{
-    background-color: #FFFFFF;
-    height: .2rem;
-    width: 5rem;
-    margin-left: 5rem;
-    margin-bottom: 7px;
-}
-.section-4 .card .lab{
-    background-color: #625EA6;
-}
-.section-4 .card .card-title{
-    padding-top: 7px;
-}
-.section-4 .card .trainers{
-    background-color: #7ADBC3;
-}
-.section-4 .card .live{
-    background-color: #31BCFF;
-}
-.section-4 .card .Video{
-    background-color: #F65B8B;
-}
-.section-4 .card .Certification{
-    background-color: #F27676;
-}
-.section-4 .card .Support{
-    background-color: #5ED6DE;
-}
-
-/*section-5*/
-.section-5 .line-3{
-        background-color: #FFB431;
-        height: .2rem;
-        width: 7rem;
-        margin-left: 39rem;
-        margin-bottom: 1rem;
-}
-.section-5 .card .col-md-5 p{
-    font-size: 10px;
-    text-align: center;
-    padding-top: 10px;
-}
-.section-5 .btn{
-    background-color: #454696;
-}
-
-.section-6{
-    background-color: #F5F5F5;
-    margin-top: 3rem;
-    padding-bottom: 10rem;
-}
-.section-6 .line-3{
-    background-color: #FFB431;
-    height: .2rem;
-    width: 7rem;
-    margin-left: 39rem;
-    margin-bottom: 1rem;
-}
-.section-6 .feedback{
-    padding: 3rem 0rem 0.5rem;
-}
-.section-6 .icon{
-    align-top: 3rem;
-}
-.section-6 .icon img{
+ /*feedback-section*/
+ .feedback-section {
+     background: #F5F5F5;
+ }
+ .moving-up{
     position: relative;
-    align: top 7rem;
-}
-.section-6 .container .col-md-6 p{
-    font-size: 16px;
-    padding: 18px 10px;
-}
-/*footer*/
+    top: -2rem;
+    background:#FFFFFF ;
+    
+ }
+ .line-width{
+     border-style: solid;
+     border-width: 0px;
+     
+ }
+
+ /*footer*/
 .display {
     float: left;
 }
@@ -315,6 +289,13 @@ header .line-2{
 #footer2 {
     background: #283440;
 }
+
+
+ 
+
+
+
+
 
 
 
