@@ -1,577 +1,578 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" sizes="96x96" href="./images-folders/testm-images/apple-icon-57x57.png">
     <title>eLearning</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat+Subrayada:wght@400;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Teko:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/mobile-style.css">
     <script src="https://kit.fontawesome.com/73786cf3e1.js" crossorigin="anonymous"></script>
-</head>
-<body>
-   <header>
-      <div class="container" p-0>
-        <nav class="navbar navbar-expand-lg"> 
-
-            <div class="collapse navbar-collapse" id="navbarNav">
-                
-              <div class=" nav-logo">
-                <img src="images-folders/homepage images/Logo.png"  alt="">
-              </div>
-              <div class="mr-auto"></div>
-              <ul class="navbar-nav">
-                <li class="nav-item active">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div id="header1" class="header ">
+      <div class="container" >
+        <nav class="navbar navbar-expand-lg navbar-light #F3F8FF text-center text-md-left  ">
+          <a class="navbar-brand" href="index.html"><img src="./images-folders/image3/real-nav-logo.png" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav m-auto text-center text-md-left">
+                  <li class="nav-item">
                   <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item d">
-                  <a class="nav-link" href="page2.html">Our Courses</a>
-                </li>
-                <li class="nav-item d">
-                  <a class="nav-link" href="tstimonia.html">Testimonial</a>
-                </li>
-                <li class="nav-item d">
-                    <a class="nav-link" href="#">Blogs</a>
-                </li>
-                  <li class="nav-item d">
-                    <a class="nav-link" href="contact.html">Contact</a>
                   </li>
-                
+                  <li class="nav-item active">
+                  <a class="nav-link" href="#">Our Courses</a>
+                  </li>
+                  <li class="nav-item active">
+                  <a class="nav-link" href="#">Testimonial</a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link" href="#">Blogs</a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                  </li>
               </ul>
-              <img src="images-folders/homepage images/Icon feather-search.svg" class="rounded-circle" alt="">
-              <div class="nav-icon">
-                <button class="btn text-light">Log In</button>
+              <form class="form-inline my-2">
+                  <div class="rounded-circle mx-3"><i class="fas fa-search"></i></div>
+                  <a href="#" class="btn btn-primary rounded-pill px-3" >Log In</a>
+              </form>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div id="header" class="pt-5">
+      <div class="container" text-center>
+        <div class="row text-center">
+          <div class="col-md-2 text-center text-md-left">
+              <p class="text-muted">Learn from any corner of the world</p>
+              <h2>Learn from <br><span> ONLINE</span> <br>on any schedule</h2>
+              <button class="btn text-light rounded-pill">Start Free Trial</button>   
+          </div>
+          <div class=" image col-md-8 text-center text-md-left">
+            
+          </div>
+          <div class="col-md-2 text-center text-md-left">
+            <h1>100+ </h1>
+            <p>Available Courses</p>
+            <div class="line-1"></div>
+            <h1>40+ </h1>
+            <p>Expert Trainers</p>
+            <div class="line-2"></div>
+            <h1>50k+ </h1>
+            <p>Active Learners</p> 
+          </div>
+        </div>
+      </div>
+    
+   
+    
+      <div class="container">
+        <div class="row bd-highlight justify-content-between position align-items-center text-center text-md-left">
+          <div class=" d-flex bd-highlight align-items-center col-md-3 dd font-textcolor">
+            <div class="d-flex  bd-highlight align-items-center font-textcolor spacing">
+              <i class="fas fa-search" aria-hidden="true"></i> 
+              <div class="font-size">Search your favorite courses </div>
+              
+            </div>
+            <div class="vertical-line ml-5"></div>
+          </div>
+          <div class="d-flex dd bd-highlight adjust  mt-2 mb-2 align-items-center col-md-3">
+            <div class="d-flex  bd-highlight  align-items-center font-textcolor">
+              <i class="fas fa-list-ul" aria-hidden="true"></i>
+              <select id="courses" name="Courses" class="btn1 btn-primary btn-sm px-3 font-textcolor">
+                
+                <option value="volvo">Courses</option>
+                <option value="saab">Basic Digital Marketing</option>
+                <option value="fiat">UX-Ul Design</option>
+                <option value="audi">Web developement</option>
+                
+              </select>
+              
+            </div>
+            <div class="vertical-line ml-3 font-textcolor"></div>
+          </div>
+          <div class="pt-3 pb-3 fuda-adj bd-highlight align-items-center col-md-3">
+            <div class="d-flex  bd-highlight align-items-center font-textcolor">
+              <i class="far fa-credit-card" aria-hidden="true"></i>
+              <select id="courses" name="Courses" class="btn1 btn-primary btn-sm px-3 font-textcolor">
+                
+                <option value="volvo">price</option>
+                <option value="saab"></option>
+                <option value="fiat"></option>
+                <option value="audi"></option>
+                
+              </select>
+            </div>
+          </div>
+          <div class=" bd-highlight padd col-md-3">
+            <a href="page3.html" class="btn btn-primary text-center text-md-left">Find Courses</a>
+          </div>
+        </div>  
+      </div>
+    </div>
+
+    <!--card beginning-->
+    <div class="article1">
+     <div class="container">
+       <div class="article1-head text-center">
+         <h2>Popular Courses</h2>
+         <div class="note my-2 merggin"></div>
+       </div>
+       <div class="card-deck">
+        <div class="card shadow">
+          <img src="./images-folders/homepageimages/Image 1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="card-title text-center text-md-left">Fundamental of Basic Digital Marketing</h4>
+            <p class="card-text text-center df">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            <div class="card-text row align-items-center  mt-2 text-center text-md-left">
+              <div class="col-md-3">
+                <img src="./images-folders/homepageimages/image13.png" alt="">
               </div>
+              <div class="col-md-5 mt-2 ">
+                <div class="bolding">Conducted by</div>
+                <div class="bold">George harry</div>
+                <img src="./images-folders/homepageimages/Stars.svg" alt="">
+              </div>
+              <div class="col-md-4">
+                <small class="bolding">5,000417 view</small>
+                <small class="bolding">10:36 hours Courses</small>
+              </div>
+            </div>
+            <div class="row mt-5">
+              <button class="btn btn-primary col-md-6 ">
+                  Enroll Now
+              </button>
+              <button class="white btn btn-primary col-md-6 ">
+                View Details
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="card shadow">
+          <img src="./images-folders/homepageimages/Image 2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="card-title text-center">Learning UI-UX from Basic to Advance</h4>
+            <p class="card-text text-center df">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            <div class="card-text row align-items-center  mt-2 text-center text-md-left"">
+              <div class="col-md-3">
+                <img src="./images-folders/homepageimages/image 3.png" alt="">
+              </div>
+              <div class="col-md-5 mt-2">
+                <div class="bolding">Conducted by</div>
+                <div class="bold">Abigil Nain</div>
+                <img src="./images-folders/homepageimages/Stars.svg" alt="">
+              </div>
+              <div class="col-md-4">
+                <small class="bolding">5,000417 view</small>
+                <small class="bolding">10:36 hours Courses</small>
+              </div>
+            </div>
+            <div class="row mt-5">
+              <button class="btn btn-primary col-md-6 ">
+                  Enroll Now
+              </button>
+              <button class="white btn btn-primary col-md-6 ">
+                View Details
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="card shadow">
+          <img src="./images-folders/homepageimages/Image 4.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="card-title text-center">Learning Web Design With Hands on Labs</h4>
+            <p class="card-text text-center df">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            <div class="card-text row align-items-center  mt-2 text-center text-md-left"">
+              <div class="col-md-3">
+                <img src="./images-folders/homepageimages/image 5.png" alt="">
+              </div>
+              <div class="col-md-5 mt-2">
+                <div class="bolding">Conducted by</div>
+                <div class="bold">Jacob Noah</div>
+                <img src="./images-folders/homepageimages/Stars.svg" alt="">
+              </div>
+              <div class="col-md-4">
+                <small class="bolding">5,000417 view</small>
+                <small class="bolding">10:36 hours Courses</small>
+              </div>
+            </div>
+            <div class="row mt-5">
+              <button class="btn btn-primary col-md-6 ">
+                  Enroll Now
+              </button>
+              <button class="white btn btn-primary col-md-6 ">
+                View Details
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+    </div>
+    
+    <!--card end-->
+
+    <!--article1-section1-->
+    <div class="article1-section1 my-5">
+      <div class="container">
+        <div class="font-color text-center">
+          <p class="pt-5">Grab the offer now</p>
+          <h3>We are Lunching a Special Offer for Our</h3>
+          <h1>Student and Mentors Boths</h1>
+          <div class=" pb-5">
+            <button class="btn-font-color btn btn-primary px-4 mx-3">
+                Become a Student
+            </button>
+            <button class="btn-font-color btn btn-primary px-4 mx-3">Become a Mentor</button>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <!--article2-section-->
+    <div class="article2-section">
+      <div class="container">
+        <div class="article1-head text-center">
+          <h2>Why Choose us</h2>
+          <div class="note my-2 merggin"></div>
+        </div>
+        <div class="row  card-deck mb-5">
+          <div class="card color1-page2 col-md-4 pt-2" style="width: 26rem;">
+            <img src="./images-folders/homepageimages/page2-image1" class="rounded mx-auto d-block" style="width: 5rem;" alt="image">
+            <div class="text-center mt-2 ">
+              <h3 class="card-title color-text">Hands on labs service</h3>
+              <div class="note-page2 "></div>
+            </div>
+            <p class="text-center color-text mt-5">Lorem ipsum dolor sit amet consectetur, 
+            adipisicing elit. Laboriosam fuga. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+          </div>
+          <div class="card color2-page2 col-md-4 pt-2" style="width: 26rem;">
+            <img src="./images-folders/Images2/page2-icons1" class="rounded mx-auto d-block" style="width: 5rem;" alt="image">
+            <div class="text-center mt-2 ">
+              <h3 class="card-title color-text">Expert Trainers</h3>
+              <div class="note-page2 "></div>
+            </div>
+            <p class="text-center color-text mt-5">Lorem ipsum dolor sit amet consectetur, 
+              adipisicing elit. Laboriosam fuga. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+          <div class="card color3-page2 col-md-4 pt-2" style="width: 26rem;">
+            <img src="./images-folders/Images2/page2-3rd1" class="rounded mx-auto d-block" style="width: 5rem;" alt="image">
+            <div class="text-center mt-2 ">
+              <h3 class="card-title color-text">Live Class Video</h3>
+              <div class="note-page2 "></div>
+            </div>
+            <p class="text-center color-text mt-5">Lorem ipsum dolor sit amet consectetur, 
+              adipisicing elit. Laboriosam fuga. Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            </p>
+          </div>
+        </div>
+        <div class="row card-deck mb-5">
+          <div class="card color4-page2 col-md-4 pt-2" style="width: 26rem;">
+            <img src="./images-folders/Images2/page2-4th1" class="rounded mx-auto d-block" style="width: 5rem;" alt="image">
+            <div class="text-center mt-2 ">
+              <h3 class="card-title color-text">Update Video Tutorial</h3>
+              <div class="note-page2 "></div>
+            </div>
+            <p class="text-center color-text mt-5">Lorem ipsum dolor sit amet consectetur, 
+            adipisicing elit. Laboriosam fuga. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+          </div>
+          <div class="card color5-page2 col-md-4 pt-2" style="width: 26rem;">
+            <img src="./images-folders/Images2/page2-5th1" class="rounded mx-auto d-block" style="width: 5rem;" alt="image">
+            <div class="text-center mt-2 ">
+              <h3 class="card-title color-text">Get Certification</h3>
+              <div class="note-page2 "></div>
+            </div>
+            <p class="text-center color-text mt-5">Lorem ipsum dolor sit amet consectetur, 
+              adipisicing elit. Laboriosam fuga. Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            </p>
+          </div>
+          <div class="card color6-page2 col-md-4 pt-2" style="width: 26rem;">
+            <img src="./images-folders/Images2/page2-6th1" class="rounded mx-auto d-block" style="width: 5rem;" alt="image">
+            <div class="text-center mt-2 ">
+              <h3 class="card-title color-text">24x7 Support</h3>
+              <div class="note-page2 "></div>
+            </div>
+            <p class="text-center color-text mt-5">Lorem ipsum dolor sit amet consectetur, 
+              adipisicing elit. Laboriosam fuga. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p> 
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--show-case-->
+
+
+
+    <div id="show-case" class="show mb-5">
+      <div class="container">
+        <div class="show-case">
+          <div class="text-center  mb-3 ">
+              <h1 class="header1 card-title">All Our Courses</h1>
+              <div class="note mb-5 merggin "></div>
+          </div>
+          <nav class="navbar navbar-expand-lg navbar-light bg-white text-center text-md-left">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+              <ul class="navbar-nav m-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Graphic Design<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Web Design</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Web Development</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Robotics</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Machine Learning</a>
+                </li>
+              </ul>
             </div>
           </nav>
-      </div>
-
-
-
-      <div class="container" text-center>
-          <div class="row">
-              <div class="col-md-3">
-                  <p class="text-muted">Learn from any corner of the world</p>
-                  <h2>Learn from <br><span> ONLINE</span> <br>on any schedule</h2>
-                  <button class="btn text-light">Start Free Trial</button>   
+          <div class="card-deck  order-xl-12">
+            <div class="card shadow order-xl-4">
+              <img src="./images-folders/image3/Image 4.png" class="card-img-top" alt="image">
+              <div class="card-body">
+                <h2 class="card-title">Learn python developement with expert</h2>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div> 
+              <div class="d-flex flex-row bd-highlight align-items-center justify-content-between mb-3">
+                <div class="p-2 bd-highlight"><img src="./images-folders/image3/Image 2.png" alt="imag"></div>
+                <div class="p-2 bd-highlight"><p class="ash">Contacted by </p> <h5>George Harry</h5> <img src="./images-folders/image3/Stars.svg" alt="stars"></div>
+                <div class="p-2 bd-highlight"> <h6 class="ash">5,00417 views<br>10.38 Hours Course</h6></div>
+              </div>    
+              <div class="d-flex align-items-center justify-content-center pb-3">
+                <button class="btn btn-primary px-5">
+                    Enroll Now
+                </button>
+                <button class="white btn btn-primary px-5">
+                  View Details
+                </button>
+              </div> 
+            </div>
+            <div class="card shadow order-xl-4">
+              <img src="./images-folders/image3/Image 5.png" class="card-img-top" alt="image">
+              <div class="card-body">
+                <h2 class="card-title">Very Beginning for Begineers Machine Learning</h2>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p> 
               </div>
-              <div class="col-md-7">
-                <img src="images-folders/homepage images/Image.svg" alt="group Image">
+              <div class="d-flex flex-row bd-highlight align-items-center justify-content-between mb-3">
+                <div class="p-2 bd-highlight"><img src="./images-folders/image3/Image 6.png" alt="imag"></div>
+                <div class="p-2 bd-highlight"><p class="ash">Contacted by</p> <h5>Abigail Nain</h5> <img src="./images-folders/image3/Stars.svg" alt="stars"></div>
+                <div class="p-2 bd-highlight"> <h6 class="ash">5,00417 View<br>10.38 Hours Course</h6></div>
+                </div>    
+                <div class="d-flex align-items-center justify-content-center pb-3">
+                  <button class="btn btn-primary px-5">
+                      Enroll Now
+                  </button>
+                  <button class="white btn btn-primary px-5">View Details</button>
+            </div>
+            </div>
+            <div class="card shadow order-xl-4">
+              <img src="./images-folders/image3/image12.png" class="card-img-top" alt="image">
+              <div class="card-body">
+                <h2 class="card-title">Artificial Intelligence for Future World</h2>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
               </div>
-              <div class="col-md-2">
-                <h1>100+ </h1>
-                <p>Available Courses</p>
-                <div class="line-1"></div>
-                <h1>40+ </h1>
-                <p>Expert Trainers</p>
-                <div class="line-2"></div>
-                <h1>50k+ </h1>
-                <p>Active Learners</p> 
+              <div class="d-flex flex-row bd-highlight align-items-center justify-content-between mb-3">
+                <div class="p-2 bd-highlight"><img src="./images-folders/image3/Image 7.png" alt="imag"></div>
+                <div class="p-2 bd-highlight"><p class="ash">Contacted by</p> <h5>Jacob Noah</h5> <img src="./images-folders/image3/Stars.svg" alt="stars"></div>
+                <div class="p-2 bd-highlight"> <h6 class="ash">5,00417 View<br>10.38 Hours Course</h6></div>
+                </div>    
+                <div class="d-flex align-items-center justify-content-center pb-3">
+                  <button class="btn btn-primary px-5">
+                      Enroll Now
+                  </button>
+                  <button class="white btn btn-primary px-5">View Details</button>
+                </div>
               </div>
-          </div>
-      </div>
-      <div class=" row bd-highlight justify-content-between align-items-center position text-center text-md-left">
-        <div class=" d-flex bd-highlight align-items-center col-md-3 dd font-textcolor">
-          <div class="d-flex  bd-highlight align-items-center font-textcolor spacing">
-            <i class="fas fa-search" aria-hidden="true"></i> 
-            <div class="font-size">Search your favorite courses </div>
-            
-          </div>
-          <div class="vertical-line ml-5"></div>
-        </div>
-        <div class="d-flex dd bd-highlight adjust  mt-2 mb-2 align-items-center col-md-3">
-          <div class="d-flex  bd-highlight  align-items-center font-textcolor">
-            <i class="fas fa-list-ul" aria-hidden="true"></i>
-            <select id="courses" name="Courses" class="btn1 btn-primary btn-sm px-3 font-textcolor">
-              
-              <option value="volvo">Courses</option>
-              <option value="saab">Basic Digital Marketing</option>
-              <option value="fiat">UX-Ul Design</option>
-              <option value="audi">Web developement</option>
-              
-            </select>
-            
-          </div>
-          <div class="vertical-line ml-3 font-textcolor"></div>
-        </div>
-        <div class="pt-3 pb-3 fuda-adj bd-highlight align-items-center col-md-3">
-          <div class="d-flex  bd-highlight align-items-center font-textcolor">
-            <i class="far fa-credit-card" aria-hidden="true"></i>
-            <select id="courses" name="Courses" class="btn1 btn-primary btn-sm px-3 font-textcolor">
-              
-              <option value="volvo">price</option>
-              <option value="saab"></option>
-              <option value="fiat"></option>
-              <option value="audi"></option>
-              
-            </select>
+            </div>
+            </div>
           </div>
         </div>
-        <div class=" bd-highlight padd col-md-3">
-          <a href="page3.html" class="btn btn-primary text-center text-md-left">Find Courses</a>
-        </div>
-      </div>
-
-   </header>
-   <main>
-      
-
-    <!--Section 2-->
-    <section class="section-2">
-    <div class="popular text-center">
-      <h2>POPULAR COURSES</h2>
-      <div class="line-3"></div>
-      <div class="cards">
-        <div class="d-flex flex-row justify-content-center flex-wrap">
-
-          <!--First Card-->
-          <div class="card shadow" style="width: 18rem;">
-            <img src="images-folders/homepage images/Image 1.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Fundamental of Basic Digital Marketing</h5>
-              <p class="card-text text-muted">Lorem ipsum is simply dummy text of the printing and typesetting industry.</p>
-            </div>
-            <div class="container text-center">
-              <div class="row">
-                <div class="col-md-2">
-                  <img src="images-folders/homepage images/Place Your Image Here.png" alt="">
-                </div>
-                <div class="col-md-5">
-                  <p class="text-muted">Conducted by <br><span class="text-dark"> George harry</span> </p>
-                  <img src="images-folders/homepage images/Stars.svg" alt="">
-                </div>
-                <div class="col-md-5 ">
-                  <p class="text-muted">5,00,417 Views <br>10:36 Hours Course </p>
-                </div>
-              </div>
-            </div>
-            <div class="card-body">
-              <a href="#" class="card-link text-light enroll">Enroll Now</a>
-              <a href="#" class="card-link text-dark view">View Details</a>
-            </div>
-          </div>
-
-          <!--Second  Card-->
-          <div class="card shadow" style="width: 18rem;">
-            <img src="images-folders/homepage images/Image 2.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Learning UI/UX from Basic to Advance</h5>
-              <p class="card-text text-muted">Lorem ipsum is simply dummy text of the printing and typesetting industry.</p>
-            </div>
-            <div class="container text-center">
-              <div class="row">
-                <div class="col-md-2">
-                  <img src="images-folders/homepage images/Image 3.png" alt="">
-                </div>
-                <div class="col-md-5">
-                  <p class="text-muted">Conducted by <br><span class="text-dark">Abigail Nain</span> </p>
-                  <img src="images-folders/homepage images/Stars.svg" alt="">
-                </div>
-                <div class="col-md-5">
-                  <p class="text-muted">5,00,417 Views <br>10:36 Hours Course </p>
-                </div>
-              </div>
-            </div>
-            <div class="card-body">
-              <a href="#" class="card-link text-light enroll">Enroll Now</a>
-              <a href="#" class="card-link text-dark view">View Details</a>
-            </div>
-          </div>
-        
-
-          <!--Third Card-->
-          <div class="card shadow" style="width: 18rem;">
-            <img src="images-folders/homepage images/Image 4.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Learning Web Design with Hands on Labs</h5>
-              <p class="card-text text-muted">Lorem ipsum is simply dummy text of the printing and typesetting industry.</p>
-            </div>
-            <div class="container text-center">
-              <div class="row">
-                <div class="col-md-2">
-                  <img src="images-folders/homepage images/Image 5.png" alt="">
-                </div>
-                <div class="col-md-5">
-                  <p class="text-muted">Conducted by <br><span class="text-dark"> Jacob Noah</span> </p>
-                  <img src="images-folders/homepage images/Stars.svg" alt="">
-                </div>
-                <div class="col-md-5">
-                  <p class="text-muted">5,00,417 Views <br>10:36 Hours Course </p>
-                </div>
-              </div>
-            </div>
-            <div class="card-body">
-              <a href="#" class="card-link text-light enroll">Enroll Now</a>
-              <a href="#" class="card-link text-dark view">View Details</a>
-            </div>
-          </div>
-
+        <div class="text-center mb-5">
+          <button class="btn btn-primary px-5 py-2">
+            View All
+          </button>
         </div>
       </div>
     </div>
-  </section>
-    <!--Section 3-->
-    <section class="section-3 container-fluid p-0 text-center">
-      <div class="row">
-        <div class="col-md-12 col-sm-12">
-          <p class="text-light grab">Grab the Offer Now</p>
-          <h2 class="text-light both">We are Launching a Special Offer for Our <br> <span>STUDENTS & MENTORS BOTH</span> </h2>
-          <a role="button" href="#" class="button text-dark">Become a Student</a>
-          <a role="button" href="#" class="button text-dark">Become a Mentor</a>
+
+
+    <div class="feedback-section">
+      <div class="container">
+        <div class="text-center  mb-3 pt-5 ">
+          <h1 class="header1 card-title">Students Feedback</h1>
+          <div class="note mb-5 merggin "></div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-2 ">
+        <div class="col mb-4 ">
+          <div class="card line-width shadow">
+            <div class="card-body ">
+              <h5 class="card-title "><img src="./images-folders/homepageimages/fedicon.svg" class="moving-up shadow p-3" alt=""></h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="row">
+                <div class="col-md-3 text-center text-md-left">
+                  <img src="./images-folders/homepageimages/Image 9.png" alt="">
+                </div>
+                <div class="col-md-9 text-center text-md-left">
+                  <h4>Muhammed Jack</h4>
+                  <p>Web Learner</p>
+                  <img src="./images-folders/image3/Stars.svg" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card line-width shadow">
+            <div class="card-body">
+              <h5 class="card-title"><img src="./images-folders/homepageimages/fedicon.svg" class="moving-up shadow p-3" alt=""></h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="row">
+                <div class="col-md-3 text-center text-md-left">
+                  <img src="./images-folders/homepageimages/Image 10.png" alt="">
+                </div>
+                <div class="col-md-9 text-center text-md-left">
+                  <h4>Emma Ava</h4>
+                  <p>Graphic Learner</p>
+                  <img src="./images-folders/image3/Stars.svg" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </section>
-    
-    <!--Section 4-->
-    <section class="section-4">
-    <div class="choose text-center">
-      <h2>WHY CHOOSE US</h2>
-      <div class="line-4"></div>
+    </div>
+
+    <!--footer-->
+    <div id="footer">
       <div class="container">
         <div class="row">
-          <div class="col-md-4 col-sm-12 lab">
-              <div class="card" style="width: 18rem;">
-                <div class="card-body lab">
-                  <img src="images-folders/homepage images/Icon.svg" alt="">
-                  <h5 class="card-title text-light">Hands on Labs Service</h5>
-                  <div class="line"></div>
-                  <p class="card-text text-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
-                </div>
-              </div> 
+          <div class="flex-fill bd-highlight col-md-4 sonn  text-center text-md-left">
+            <div>
+              <img src="./images-folders/Images2/Icon (2).svg" class="display" alt="imag">
+              <h2 class="footer-color pt-4">Certified Courses</h2>
+              <div class="footer-note mb-5 ml-4"></div>
+            </div>
+            <table class="table table-borderless ml-3 text-center text-md-left">
+              <thead class="footer-color">
+                <tr>
+                  <td scope="col">Grahic Design</td>
+                  <td scope="col">python Development</td>
+                </tr>
+              </thead>
+              <tbody class="footer-color">
+                <tr scope="row">
+                  <td>UI-UX Design</td>
+                  <td>Robotics</td>
+                </tr>
+                <tr scope="row">
+                  <td>Web Design</td>
+                  <td class="decoration">Artificial Intelligence</td>
+                </tr>
+                <tr scope="row">
+                  <td scope="row">Web Development</td>
+                  <td scope="row">Augmented Realities</td>
+                </tr>
+                <tr scope="row">
+                  <td scope="row">JavaScript</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
-          <div class="col-md-4 col-sm-12">
-            <div class="card" style="width: 18rem;">
-              <div class="card-body trainers">
-                <img src="images-folders/homepage images/Icon 2.svg" alt="">
-                <h5 class="card-title text-light">Expert Trainers</h5>
-                <div class="line"></div>
-                <p class="card-text text-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
+          <div class="flex-fill  bd-highlight col-md-4 text-center text-md-left">
+            <div>
+              <img src="./images-folders/Images2/Icon (1).svg" class="display" alt="imag">
+              <h2 class="footer-color pt-4">Important Links</h2>
+              <div class="footer-note mb-5 ml-4"></div>
+            </div>
+            <table class="table table-borderless  ml-3">
+              <thead class="footer-color">
+                <tr>
+                  <td scope="col">Terms &amp; Conditions</td>
+                  <td scope="col">Latest Courses</td>
+                </tr>
+              </thead>
+              <tbody class="footer-color  ml-3">
+                <tr scope="row">
+                  <td>Privacy Policy</td>
+                  <td>Recent Events</td>
+                </tr>
+                <tr scope="row">
+                  <td>Rules &amp; Regulations</td>
+                  <td class="decoration">Home</td>
+                </tr>
+                <tr scope="row">
+                  <td scope="row">FAQ</td>
+                  <td scope="row">All Courses</td>
+                </tr>
+                <tr scope="row">
+                  <td scope="row">Latest News</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="flex-fill bd-highlight col-md-4 justify-content-center order-xl-4 ">
+            <div>
+              <img src="./images-folders/Images2/Icon (3).svg" class="display" alt="imag">
+              <h2 class="footer-color pt-4">Important Links</h2>
+              <div class="footer-note mb-5 ml-4"></div>
+            </div>
+            <div class="input-group mb-5">
+              <input type="text" class="text-color ml-4" placeholder="Your e-mail here">
+              <div class="input-group-append">
+                <button class="btn btn-light form-color-btn" type="button">Send</button>
               </div>
-            </div> 
-        </div>
-        <div class="col-md-4 col-sm-12">
-          <div class="card" style="width: 18rem;">
-            <div class="card-body live">
-              <img src="images-folders/homepage images/Icon 3.svg" alt="">
-              <h5 class="card-title text-light">Live Class Videio</h5>
-              <div class="line"></div>
-              <p class="card-text text-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
+            </div>
+            <div>
+              <img src="./images-folders/Images2/Icon.svg" class="display" alt="imag">
+              <h2 class="footer-color pt-4">Follow us on</h2>
+              <div class="footer-note1 mb-5 ml-4"></div>
+            </div>
+            <div class="d-flex flex-row bd-highlight justify-content-start space1 ml-4 mb-5">
+              <div>
+                <img src="./images-folders/Images2/Facebook.svg" class="display" alt="imag">
+              </div>
+              <div>
+                <img src="./images-folders/Images2/Twitter.svg" class="display" alt="imag">
+              </div>
+              <div>
+                <img src="./images-folders/Images2/Linked in.svg" width="40" height="40" class="display linked-backg" alt="imag">
+              </div>
+              <div>
+                <img src="./images-folders/Images2/Pinterest.svg" class="display" alt="imag">
+              </div>
+              <div>
+                <img src="./images-folders/Images2/Behance.svg" class="display" alt="imag">
+              </div>
             </div>
           </div> 
-      </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4 col-sm-12">
-              <div class="card" style="width: 18rem;">
-                <div class="card-body Video">
-                  <img src="images-folders/homepage images/Icon 4.svg" alt="">
-                  <h5 class="card-title text-light">Update Video Tutorial</h5>
-                  <div class="line"></div>
-                  <p class="card-text text-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
-                </div>
-              </div> 
-          </div>
-          <div class="col-md-4 col-sm-12">
-            <div class="card" style="width: 18rem;">
-              <div class="card-body Certification">
-                <img src="images-folders/homepage images/Icon 5.svg" alt="">
-                <h5 class="card-title text-light">Get Certification</h5>
-                <div class="line"></div>
-                <p class="card-text text-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
-              </div>
-            </div> 
-        </div>
-        <div class="col-md-4 col-sm-12">
-          <div class="card" style="width: 18rem;">
-            <div class="card-body Support">
-              <img src="images-folders/homepage images/Icon 6.svg" alt="">
-              <h5 class="card-title text-light">24x7 Support</h5>
-              <div class="line"></div>
-              <p class="card-text text-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
-            </div>
-          </div> 
-      </div>
-        </div>
-    
-      </div>
-    </div>
-  </section>
-    <!--Section 5-->
-    <section class="section-5">
-    <div class="courses text-center">
-      <h2>OUR ALL COURSES</h2>
-      <div class="line-3"></div>
-      <ul class="list-inline text-center text-muted">
-        <li class="list-inline-item">Graphic Design</li>
-        <li class="list-inline-item">Web Design</li>
-        <li class="list-inline-item">Web Development</li>
-        <li class="list-inline-item">Robotics</li>
-        <li class="list-inline-item">Machine Leaning</li> 
-      </ul>
-      <div class="cards">
-        <div class="d-flex flex-row justify-content-center flex-wrap">
-
-          <!--First Card-->
-          <div class="card shadow" style="width: 18rem;">
-            <img src="images-folders/homepage images/Image 6.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Learning Python Development with Expert</h5>
-              <p class="card-text text-muted">Lorem ipsum is simply dummy text of the printing and typesetting industry.</p>
-            </div>
-            <div class="container text-center">
-              <div class="row">
-                <div class="col-md-2">
-                  <img src="images-folders/homepage images/Place Your Image Here.png" alt="">
-                </div>
-                <div class="col-md-5">
-                  <p class="text-muted">Conducted by <span class="text-dark"> George harry</span> </p><br>
-                  <img src="images-folders/homepage images/Stars.svg" alt="">
-                </div>
-                <div class="col-md-5">
-                  <p class="text-muted">5,00,417 Views <br>10:36 Hours Course </p>
-                </div>
-              </div>
-            </div>
-            <div class="card-body">
-              <a href="#" class="card-link text-light enroll">Enroll Now</a>
-              <a href="#" class="card-link text-dark">View Details</a>
-            </div>
-          </div>
-
-          <!--Second  Card-->
-          <div class="card shadow" style="width: 18rem;">
-            <img src="images-folders/homepage images/Image 7.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Very Beginning for Beginners Machine Learning</h5>
-              <p class="card-text text-muted">Lorem ipsum is simply dummy text of the printing and typesetting industry.</p>
-            </div>
-            <div class="container text-center">
-              <div class="row">
-                <div class="col-md-2">
-                  <img src="images-folders/homepage images/Image 3.png" alt="">
-                </div>
-                <div class="col-md-5">
-                  <p class="text-muted">Conducted by <span class="text-dark">Abigail Nain</span> </p><br>
-                  <img src="images-folders/homepage images/Stars.svg" alt="">
-                </div>
-                <div class="col-md-5">
-                  <p class="text-muted">5,00,417 Views <br>10:36 Hours Course </p>
-                </div>
-              </div>
-            </div>
-            <div class="card-body">
-              <a href="#" class="card-link text-light enroll">Enroll Now</a>
-              <a href="#" class="card-link text-dark">View Details</a>
-            </div>
-          </div>
-
-          <!--Third Card-->
-          <div class="card shadow" style="width: 18rem;">
-            <img src="images-folders/homepage images/Image 8.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Artificial Intelligence for Future World</h5>
-              <p class="card-text text-muted">Lorem ipsum is simply dummy text of the printing and typesetting industry.</p>
-            </div>
-            <div class="container text-center">
-              <div class="row">
-                <div class="col-md-2">
-                  <img src="images-folders/homepage images/Image 5.png" alt="">
-                </div>
-                <div class="col-md-5">
-                  <p class="text-muted">Conducted by <span class="text-dark"> Jacob Noah</span> </p><br>
-                  <img src="images-folders/homepage images/Stars.svg" alt="">
-                </div>
-                <div class="col-md-5">
-                  <p class="text-muted">5,00,417 Views <br>10:36 Hours Course </p>
-                </div>
-              </div>
-            </div>
-            <div class="card-body">
-              <a href="#" class="card-link text-light enroll">Enroll Now</a>
-              <a href="#" class="card-link text-dark">View Details</a>
-            </div>
-          </div>
-
         </div>
       </div>
-      <a href="page3.html" class="btn text-light">View All</a>
-    </div>
-  </section>
-
-    <!--Section 6-->
-    <section class="section-6">
-    <div class="feedback">
-      <h2 class="text-center feedback">STUDENT'S FEEDBACK</h2>
-      <div class="line-3"></div>
-      <div class="cards">
-        <div class="d-flex flex-row justify-content-center flex-wrap">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 col-sm-12">
-          <div class="card" style="width: 25rem;">
-            <div class="card-body">
-              <div class="icon align-left">
-                <img src="images-folders/homepage images/Icon 7.svg" alt="">
-              </div>
-              <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-              <div class="container text-center">
-                <div class="row">
-                  <div class="col-md-3">
-                    <img src="images-folders/homepage images/Image 9.png" alt="">
-                  </div>
-                  <div class="col-md-6">
-                    <p>Muhammad Jack <span class="text-muted">Web Learner</span> </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-sm-12">
-          <div class="card" style="width: 25rem;">
-            <div class="card-body">
-              <div class="icon align-left">
-                <img src="images-folders/homepage images/Icon 7.svg" alt="">
-              </div>
-              <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-               <div class="container text-center">
-              <div class="row">
-                <div class="col-md-3">
-                  <img src="images-folders/homepage images/Image 10.png" alt="">
-                </div>
-                <div class="col-md-6">
-                  <p>Emma Avo <span class="text-muted"> Graphic Leaarner</span> </p>
-                </div>
-              </div>
-            </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-        </div>
-  </div>
-  </div> 
-</section>
-   </main> 
-   <div id="footer">
-    <div class="container">
-      <div class="d-flex bd-highlight sonn order-xl-12 text-center text-md-left">
-        <div class="flex-fill bd-highlight order-xl-4">
-          <div >
-            <img src="./images-folders/image3/Icon (2).svg" class="display" alt="imag">
-            <h2 class="footer-color pt-4">Certified Courses</h2>
-            <div class="footer-note mb-5 ml-4"></div>
-          </div>
-          <table class="table table-borderless ml-3 text-center text-md-left">
-            <thead class="footer-color">
-              <tr>
-                <td scope="col" >Grahic Design</td>
-                <td scope="col">python Development</td>
-              </tr>
-            </thead>
-            <tbody class="footer-color">
-              <tr scope="row">
-                <td >UI-UX Design</td>
-                <td>Robotics</td>
-              </tr>
-              <tr scope="row">
-                <td>Web Design</td>
-                <td class="decoration">Artificial Intelligence</td>
-              </tr>
-              <tr scope="row">
-                <td scope="row">Web Development</td>
-                <td scope="row">Augmented Realities</td>
-              </tr>
-              <tr scope="row">
-                <td scope="row">JavaScript</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <div class="flex-fill  bd-highlight order-xl-4 text-center text-md-left">
-          <div>
-            <img src="./images-folders/image3/Icon (1).svg" class="display" alt="imag">
-            <h2 class="footer-color pt-4">Important Links</h2>
-            <div class="footer-note mb-5 ml-4"></div>
-          </div>
-          <table class="table table-borderless  ml-3">
-            <thead class="footer-color">
-              <tr >
-                <td scope="col">Terms & Conditions</td>
-                <td scope="col">Latest Courses</td>
-              </tr>
-            </thead>
-            <tbody class="footer-color  ml-3">
-              <tr scope="row">
-                <td >Privacy Policy</td>
-                <td>Recent Events</td>
-              </tr>
-              <tr scope="row">
-                <td>Rules & Regulations</td>
-                <td class="decoration" >Home</td>
-              </tr>
-              <tr scope="row">
-                <td scope="row">FAQ</td>
-                <td scope="row">All Courses</td>
-              </tr>
-              <tr scope="row">
-                <td scope="row">Latest News</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <div class="flex-fill bd-highlight justify-content-center order-xl-4 ">
-          <div >
-            <img src="./images-folders/image3/Icon (3).svg" class="display" alt="imag">
-            <h2 class="footer-color pt-4">Important Links</h2>
-            <div class="footer-note mb-5 ml-4"></div>
-          </div>
-          <div class="input-group mb-5">
-            <input type="text" class="text-color ml-4" placeholder="Your e-mail here"  >
-            <div class="input-group-append">
-              <button class="btn btn-light form-color-btn" type="button">Send</button>
-            </div>
-          </div>
-          <div >
-            <img src="./images-folders/image3/Icon.svg" class="display" alt="imag">
-            <h2 class="footer-color pt-4">Follow us on</h2>
-            <div class="footer-note1 mb-5 ml-4"></div>
-          </div>
-          <div class="d-flex flex-row bd-highlight justify-content-start space1 ml-4 mb-5">
-            <div >
-              <img src="./images-folders/image3/Facebook.svg" class="display" alt="imag">
-            </div>
-            <div >
-              <img src="./images-folders/image3/Twitter.svg" class="display" alt="imag">
-            </div>
-            <div >
-              <img src="./images-folders/image3/Linked in.svg" width="40" height="40" class="display linked-backg" alt="imag">
-            </div>
-            <div >
-              <img src="./images-folders/image3/Pinterest.svg" class="display" alt="imag">
-            </div>
-            <div >
-              <img src="./images-folders/image3/Behance.svg" class="display" alt="imag">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
   <div id="footer2">
-    <div class="container">
-      <div class="d-flex sonn bd-highlight order-xl-12 align-items-center justify-content-between text-center text-md-left">
-        <div class="bd-highlight footer-color order-xl-4 mb-4"><p>Copyright <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-question" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-          <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/>
-        </svg>2020. All Right Reserved</p></div>
-        <div class="bd-highlight footer-color order-xl-4 mb-4"><img src="./images-folders/image3/Logo@2x.png" alt="image"><i class="fas fa-chevron-circle-up"></i></div>
+      <div class="container">
+        <div class="d-flex  sonn-foot bd-highlight align-items-center justify-content-between text-center text-md-left">
+          <div class="bd-highlight footer-color mb-4"><p>Copyright <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-question" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"></path>
+          </svg>2020. All Right Reserved</p></div>
+          <div class="bd-highlight footer-color"><img src="./images-folders/Images2/Logo@2x.png" alt="image"><i class="fas fa-chevron-circle-up" aria-hidden="true"></i></div>
+        </div>
       </div>
-    </div>
   </div>
-  <script src="js/jquery.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-</body>
+   
+   
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>
