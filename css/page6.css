@@ -19,6 +19,20 @@ body {
     background: url(../images-folders/image3/Icons.svg) no-repeat center center /contain;
     background-color: #F3F8FF;
     font-family: 'Teko', sans-serif;
+    
+}
+@media(max-width:768px){  
+    #navheader{
+    background: url(../images-folders/image3/Icons.svg) #f3f8ff no-repeat center center /contain;
+    width: 1920px;
+    height: 288px;
+}
+}
+@media(max-width:768px){
+    nav ul li{
+        display: block;
+        font-size: 25px;
+    }
 }
 .login {
     text-align: center;
@@ -102,6 +116,13 @@ body {
 }
 #footer2 {
     background: #283440;
+}
+@media(max-width:768px){
+    .sonn {
+        display: flex;
+        flex-direction: column;
+        padding-top: 2rem;
+    }
 }
 
 
