@@ -88,6 +88,17 @@ body {
         flex-direction: column;
         padding-top: 2rem;
     }
+    .media-margin{
+        margin-bottom: 1.5rem;
+    }
+    .media-center {
+        margin-right: 3rem;
+        text-align: center;
+    }
+}
+.jsapp{
+    color: red;
+    text-align: center;
 }
 
 /*footer*/
