@@ -71,8 +71,8 @@ body {
 .form-font {
     font-family:'Arimo', sans-serif;
 }
-.pad {
-    padding-right: 6rem;
+.pad-rig{
+    padding-right: 10rem;
 }
 .form-login {
     color: #444444;
