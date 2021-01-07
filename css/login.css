@@ -37,6 +37,9 @@ body {
     box-shadow:2px 2px #8D8D8D29;
     border-style: none;
 }
+.login-image{
+    background: url(../images-folders/image6/Login-rafiki.svg)no-repeat center left/contain;
+}
 
 .rounded-circle {
     border-style: solid;
@@ -49,12 +52,18 @@ body {
     .form-inline {
     padding-left: 6rem;
     }
+    .login-image{
+        background: url(../images-folders/image6/Login-rafiki.svg)no-repeat center center/contain;
+        height: 50vh;
+    }
+    .icons{
+        float:right;
+        margin-right: 5rem;
+    }
 }
+
 /* nav bar end*/
-/*.article {
-    background: #FFFFFF;
-    box-shadow:2px 2px #8D8D8D29;
-}*/
+/*.article */
 .shadow{
     padding: 2rem;
 }
@@ -103,7 +112,3 @@ body {
 #footer2 {
     background: #283440;
 }
-
-
-
-

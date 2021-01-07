@@ -13,7 +13,7 @@ body{
     font-family: 'Teko', sans-serif;
     position: sticky;
     top: 0;
-    z-index: 1
+    z-index: 2;
 }
 #header{
     background-color: #F3F8FF;
@@ -144,7 +144,11 @@ header .line-2{
         flex-direction: column;
         padding: 2rem 0 2rem 0;
     }
+    
    
+}
+.indexing{
+    z-index: 1;
 }
 
 /*article1-head*/

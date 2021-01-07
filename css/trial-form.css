@@ -75,6 +75,12 @@ body {
     background: #f3f8ff;
     border-radius: 5px;
 }
+@media( max-width:765px){
+    .marge {
+        float: right; padding-left:10rem;
+        margin-right: 7rem;
+    }
+}
 
 
 /*footer*/
