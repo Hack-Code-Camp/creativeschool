@@ -1,35 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
 }
-/*utility*/
+
+/*utility class*/
 a {
     text-decoration: none;
+}
+li{
+    list-style: none;
 }
 body {
     font-family: 'Teko', sans-serif;
 }
-
-/*Nav bar*/
-
+/* Nav bar*/
 #navheader {
-    background: url(../images-folders/image5/Icons.svg) no-repeat center center /contain;
+    background: url(../images-folders/image3/Icons.svg) no-repeat center center /contain;
     background-color: #F3F8FF;
     font-family: 'Teko', sans-serif;
     position: sticky;
     top: 0;
-    z-index: 1;
+    z-index: 2;
 }
-#navheader1{
-    background: url(../images-folders/image5/Icons.svg) no-repeat center center /contain;
+.header1{
+    background: url(../images-folders/image3/Icons.svg) no-repeat center center /contain;
     background-color: #F3F8FF;
-    font-family: 'Teko', sans-serif;
 }
-
-.course-center {
+.enroll-form {
     text-align: center;
     color: #2E2B4E;
 }
@@ -50,45 +49,24 @@ body {
     padding-right: 6px;
     color: #DDDDDD;
 }
-
-/*article*/
-.sizing {
-    font-size: 5rem;
-}
-.spacing {
-    gap: 5px;
-}
-.color {
-    color: #454696;
-}
-.note{
-    width: 105px;
-    border-style: solid;
-    border-width: 4px 0px 0px 0px;
-    color: #FFB431;
-    margin-left: 31.5rem;
-}
-.form-font {
-    font-family:'Arimo', sans-serif;
-}
-.pad {
-    padding-right: 6rem;
-}
-.form-login {
-    color: #444444;
-    text-decoration:underline;
-}
-@media(max-width:765px) {
-    .marge {
-        float: right; padding-left:10rem;
-      margin-right: 7rem;
-    }
-    .sonn {
+@media( max-width:765px){
+    .padd{
         display: flex;
         flex-direction: column;
-        padding-top: 2rem;
+        justify-content: flex-start;
     }
+    
 }
+.enrol-form{
+    background: #f3f8ff;
+    border-radius: 5px;
+}
+
+.padd{
+    padding-left: 12rem;
+}
+
+
 
 /*footer*/
 .display {

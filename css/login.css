@@ -12,15 +12,21 @@ a {
 body {
     font-family: 'Teko', sans-serif;
 }
+
+
 /* Nav bar*/
 #navheader {
     background: url(../images-folders/image3/Icons.svg) no-repeat center center /contain;
     background-color: #F3F8FF;
     font-family: 'Teko', sans-serif;
 }
-.enroll-form {
+.login {
     text-align: center;
     color: #2E2B4E;
+}
+.login-color {
+    color: #2E2B4E;
+    font-size: 30px;
 }
 .btn {
     background: #454696;
@@ -30,6 +36,9 @@ body {
     color: #444444;
     box-shadow:2px 2px #8D8D8D29;
     border-style: none;
+}
+.login-image{
+    background: url(../images-folders/image6/Login-rafiki.svg)no-repeat center left/contain;
 }
 
 .rounded-circle {
@@ -43,17 +52,24 @@ body {
     .form-inline {
     padding-left: 6rem;
     }
+    .login-image{
+        background: url(../images-folders/image6/Login-rafiki.svg)no-repeat center center/contain;
+        height: 50vh;
+    }
+    .icons{
+        float:right;
+        margin-right: 5rem;
+    }
 }
 
-.form-section{
-    margin-top: 7em;
+/* nav bar end*/
+/*.article */
+.shadow{
+    padding: 2rem;
 }
-.rect{
-    width: 150px;
-    height: 30px;
-    border: 1px solid #DDDDDD;
+.icons{
+    margin-left: 12rem;
 }
-
 
 /*footer*/
 .display {
@@ -96,6 +112,3 @@ body {
 #footer2 {
     background: #283440;
 }
-
-
-
