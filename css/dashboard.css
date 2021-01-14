@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* navbar */
+
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*utility class*/
+a {
+    text-decoration: none;
+}
+body {
+    font-family: 'Teko', sans-serif;
+}
+
+/* Nav bar*/
+#navheader {
+    background: url(../images-folders/image3/Icons.svg) no-repeat center center /contain;
+    background-color: #F3F8FF;
+    font-family: 'Teko', sans-serif;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+#navheader1{
+    background: url(../images-folders/image3/Icons.svg) no-repeat center center /contain;
+    background-color: #F3F8FF;
+    font-family: 'Teko', sans-serif;
+}

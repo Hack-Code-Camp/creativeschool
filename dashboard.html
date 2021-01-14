@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="96x96" href="./images-folders/testm-images/apple-icon-57x57.png">
+    <title>Dashboard</title>
+    <script src="https://kit.fontawesome.com/209a63b37e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+    <!-- =======================navbar===============-->
+    <div id="navheader" class="d-flex justify-content-between">
+        <nav class="navbar navbar-expand-lg navbar-light #F3F8FF text-center text-md-left nav-stick">
+        <a class="navbar-brand" href="index.html"><img src="./images-folders/Images2/real-nav-logo.png" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        </nav>
+        <form class="form-inline my-2 mr-5">
+            <div class="rounded-circle mx-3"><a href="./search.html"><i class="fas fa-search" aria-hidden="true"></i></a></div>
+            <a href="#" class="btn btn-primary rounded-pill px-3">Sign out</a>
+        </form>
+    </div>
+    <!-- =======================navbar end===============-->
+    <div class="container-fluid">
+        <div class="row">
+            <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+                <div class="sidebar-sticky pt-3">
+                  <ul class="nav flex-column">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#">
+                        <span data-feather="home"></span>
+                        Dashboard <span class="sr-only">(current)</span>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="add-event.html">
+                        <span data-feather="file"></span>
+                        Create New Event
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <span data-feather="users"></span>
+                        Partners
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <span data-feather="bar-chart-2"></span>
+                        Event stats
+                      </a>
+                    </li>
+                  </ul>
+          
+                  <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+                    <span>My Events</span>
+                  </h6>
+                  <ul class="nav flex-column mb-2">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <span data-feather="file-text"></span>
+                        All Events
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <span data-feather="file-text"></span>
+                        Currently Open
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <span data-feather="file-text"></span>
+                        Completed Events
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <span data-feather="file-text"></span>
+                        Drafts
+                      </a>
+                  </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    
+    
+    
+</body>
+</html>
